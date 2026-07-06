@@ -1,58 +1,47 @@
+# Jahid — Software Developer
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=JAHID%20DEVELOPER&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Engineer&descSize=18&descAlignY=55&textBg=false"/>
+Hi — I'm Jahid (official-jahid). I build tools, automation, and research projects focused on Windows systems, developer tooling, and agent skills. My work spans Python, PowerShell, JavaScript, and low-level C/C++ — with a focus on automation, observability, and developer workflows.
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=official-jahid">
-    <img src="https://komarev.com/ghpvc/?username=official-jahid&label=Profile%20views&color=00FFFF&style=flat-square" alt="official-jahid's profile views" />
-  </a>
-</p>
+## Core areas
 
-<img src="https://user-images.githubusercontent.com/74038190/215768208-3bf3dda8-eeea-40ee-a58b-f5ac529685bf.gif" alt="Banner" width="100%" />
+- Windows internals & automation (PowerShell, memory tooling)
+- Backend & tooling (Python, Flask, Node.js)
+- Systems programming (C/C++, process and memory research)
+- Developer skills & templates (agent skills, reusable patterns)
 
-## 📊 GitHub Stats & Trophies
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=official-jahid&show_icons=true&theme=nightowl&hide_border=true&count_private=true&cache_seconds=86400" alt="official-jahid's GitHub Stats" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=official-jahid&theme=nightowl&hide_border=true&cache_seconds=86400" alt="official-jahid's GitHub Streak" width="49%" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=official-jahid&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="JAHID DEVELOPER's GitHub Trophies" />
-</p>
-<p align="center">
-  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=official-jahid&theme=nightowl&radius=10" alt="official-jahid's Activity Graph" />
-</p>
+## Selected projects
 
+- REGIX Studio — streamer-panel
+  - A Flask-based control panel and UI for gaming tooling and research (see: https://github.com/official-jahid/streamer-panel)
 
-## 🛠️ Languages & Tools
+- Skills collection — skills
+  - A curated set of agent "skills" and developer patterns across languages: TypeScript, Python, C, C++, C#, PowerShell (see: https://github.com/official-jahid/skills)
 
-> ## Programming Languages
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="48" height="48" style="margin: 4px;" /></p>
+- Windows tweaks & gaming config
+  - windows-tweaks, REGIX-Gaming-Optimization-Script, paid-sensi, anti-windows-tweaks — PowerShell/JS utilities and configuration to tune Windows for gaming and automation (see respective repos)
 
-> ## Frontend
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="48" height="48" style="margin: 4px;" /> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="48" height="48" style="margin: 4px;" /></p>
+- Research & analysis
+  - ff-bios-windows — an analysis/report covering a suspicious version.dll sample (for research and sandboxed analysis only): https://github.com/official-jahid/ff-bios-windows
 
-> ## Backend
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="48" height="48" style="margin: 4px;" /></p>
+- Utilities
+  - injector — small PowerShell utilities and helpers for process interaction and automation: https://github.com/official-jahid/injector
 
-> ## Database
-<p align="center"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="48" height="48" style="margin: 4px;" /></p>
+- misc
+  - test — playground and experiments: https://github.com/official-jahid/test
 
-> ## Tools
-<p align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="48" height="48" style="margin: 4px;" /></p>
+## How to explore my work
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=official-jahid&layout=compact&theme=nightowl&hide_border=true&langs_count=10&cache_seconds=86400" alt="Top Languages" />
-</p>
+1. Browse the repositories linked above to see code, READMEs, and examples.
+2. Open issues if you find bugs or want to request features.
+3. Check the `skills` repo for reusable patterns and publishing instructions.
 
-## 🔗 Connect with Me
-<p align="left"> <a href="mailto:jahidekbalmallick@gmail.com" target="_blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="JAHID DEVELOPER's Email"/></a> <a href="https://jahiddeveloperportfolio.netlify.app" target="_blank"><img align="center" src="https://img.shields.io/badge/Website-46BC99?style=for-the-badge&logo=About.me&logoColor=white" alt="Personal Website"/></a> <a href="https://wa.me/919733696362" target="_blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a></p>
+## Responsible use & disclaimer
+Some repositories contain low-level tooling, memory-research code, or analysis of suspicious binaries. These projects are intended for research, education, and defensive analysis. Do not run untrusted binaries or use tools to harm other users or violate terms of service. I do not endorse misuse; please use everything responsibly.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-</picture>
+## Contact
+- Email: jahidekbalmallick@gmail.com
+- GitHub: https://github.com/official-jahid
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
-</div>
+---
 
+Thanks for visiting — feel free to open an issue or reach out if you want to collaborate or have questions.
