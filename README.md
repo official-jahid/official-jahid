@@ -28,22 +28,44 @@ I'm a software developer and researcher building automation, Windows tooling, an
 ---
 
 ## 🧰 Tech stack & tools
+Below is a categorized snapshot of the stacks and tools I use, with short notes on how I apply them in projects.
+
+### Languages
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" style="margin:8px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" style="margin:8px"/>
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="28" height="28" style="margin:6px"/> <strong>Python</strong> — automation, Flask apps, memory tooling, PyInstaller builds<br/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="28" height="28" style="margin:6px"/> <strong>JavaScript / TypeScript</strong> — tooling, small web UIs, Node.js scripts<br/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="28" height="28" style="margin:6px"/> <strong>C</strong> — low-level research, memory & binary analysis helpers<br/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="28" height="28" style="margin:6px"/> <strong>C++</strong> — systems code, Windows API interactions
 </p>
 
+### Frameworks & runtimes
 <p align="center">
-  [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=official-jahid&layout=compact&theme=nightowl&hide_border=true&langs_count=8)](https://github.com/official-jahid)
-  [![Profile Stats](https://github-readme-stats.vercel.app/api?username=official-jahid&show_icons=true&theme=nightowl&hide_border=true&count_private=true)](https://github.com/official-jahid)
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="28" height="28" style="margin:6px"/> <strong>Node.js</strong> — small CLIs and skill publishing tools<br/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="28" height="28" style="margin:6px"/> <strong>React</strong> — front-end components for dashboards and demos (when needed)<br/>
+  <img src="https://img.shields.io/badge/Flask-/%20-5a25ff" alt="Flask" style="margin-left:6px;"/> <strong>Flask</strong> — web panel back-ends (REGIX Studio)
 </p>
+
+### Systems & automation
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg" alt="PowerShell" width="28" height="28" style="margin:6px"/> <strong>PowerShell</strong> — Windows automation, registry tweaks, optimization scripts<br/>
+  <img src="https://www.vectorlogo.zone/logos/windows/windows-icon.svg" alt="Windows" width="28" height="28" style="margin:6px"/> <strong>Windows internals</strong> — process/memory ops, registry, services, Defender config
+</p>
+
+### Storage, packaging & tooling
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="24" height="24" style="margin:6px"/> <strong>SQLite / files</strong> — lightweight storage for small panels and prototypes<br/>
+  <img src="https://img.icons8.com/ios-filled/50/000000/box-important.png" alt="PyInstaller" width="24" height="24" style="margin:6px"/> <strong>PyInstaller</strong> — building Windows executables (when needed)
+</p>
+
+### Developer & CI
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="28" height="28" style="margin:6px"/> <strong>Git / GitHub</strong> — source control, issues, releases<br/>
+  <img src="https://img.shields.io/badge/CI-GitHub%20Actions-blue" alt="GitHub Actions" style="margin-left:6px;"/> <strong>CI</strong> — lightweight pipelines for tests/builds
+</p>
+
+### Notable libraries & patterns
+- Flask (web panels), PyInstaller (packaging), PyMem / memory helpers (research).<br/>
+- In skills: Prisma, Express, discord.js patterns appear in agent guidance (see the skills repo for details).
 
 ---
 
