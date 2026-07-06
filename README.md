@@ -1,47 +1,108 @@
-# Jahid — Software Developer
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=6,11,20,29&text=JAHID%20DEVELOPER&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35" alt="Jahid Developer" />
+</p>
 
-Hi — I'm Jahid (official-jahid). I build tools, automation, and research projects focused on Windows systems, developer tooling, and agent skills. My work spans Python, PowerShell, JavaScript, and low-level C/C++ — with a focus on automation, observability, and developer workflows.
+<p align="center">
+  <a href="https://github.com/official-jahid">
+    <img src="https://komarev.com/ghpvc/?username=official-jahid&label=Profile%20views&color=00FFFF&style=flat-square" alt="profile views" />
+  </a>
+</p>
 
-## Core areas
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/215768208-3bf3dda8-eeea-40ee-a58b-f5ac529685bf.gif" alt="banner" width="100%" />
+</p>
 
-- Windows internals & automation (PowerShell, memory tooling)
-- Backend & tooling (Python, Flask, Node.js)
-- Systems programming (C/C++, process and memory research)
-- Developer skills & templates (agent skills, reusable patterns)
+# 👋 Hi, I'm Jahid (official-jahid)
 
-## Selected projects
-
-- REGIX Studio — streamer-panel
-  - A Flask-based control panel and UI for gaming tooling and research (see: https://github.com/official-jahid/streamer-panel)
-
-- Skills collection — skills
-  - A curated set of agent "skills" and developer patterns across languages: TypeScript, Python, C, C++, C#, PowerShell (see: https://github.com/official-jahid/skills)
-
-- Windows tweaks & gaming config
-  - windows-tweaks, REGIX-Gaming-Optimization-Script, paid-sensi, anti-windows-tweaks — PowerShell/JS utilities and configuration to tune Windows for gaming and automation (see respective repos)
-
-- Research & analysis
-  - ff-bios-windows — an analysis/report covering a suspicious version.dll sample (for research and sandboxed analysis only): https://github.com/official-jahid/ff-bios-windows
-
-- Utilities
-  - injector — small PowerShell utilities and helpers for process interaction and automation: https://github.com/official-jahid/injector
-
-- misc
-  - test — playground and experiments: https://github.com/official-jahid/test
-
-## How to explore my work
-
-1. Browse the repositories linked above to see code, READMEs, and examples.
-2. Open issues if you find bugs or want to request features.
-3. Check the `skills` repo for reusable patterns and publishing instructions.
-
-## Responsible use & disclaimer
-Some repositories contain low-level tooling, memory-research code, or analysis of suspicious binaries. These projects are intended for research, education, and defensive analysis. Do not run untrusted binaries or use tools to harm other users or violate terms of service. I do not endorse misuse; please use everything responsibly.
-
-## Contact
-- Email: jahidekbalmallick@gmail.com
-- GitHub: https://github.com/official-jahid
+I'm a software developer and researcher building automation, Windows tooling, and agent skills. I work across Python, PowerShell, JavaScript, and low-level C/C++ to deliver tooling, analysis, and reusable developer patterns.
 
 ---
 
-Thanks for visiting — feel free to open an issue or reach out if you want to collaborate or have questions.
+## 🔭 What I build
+- 🎮 REGIX Studio — Advanced gaming tooling & panel (AimbotAI, memory utilities, web UI)
+- 🧠 Agent Skills — Reusable skill templates & guides across multiple languages
+- 🛠️ Windows automation & tweaks — PowerShell scripts, optimization configs
+- 🔍 Binary research — Analysis and sandboxed reporting for suspicious samples
+- ⚙️ Small utilities — Injectors, helpers, and experiment code
+
+---
+
+## 🧰 Tech stack & tools
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" style="margin:8px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" style="margin:8px"/>
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" height="40" style="margin:8px"/>
+</p>
+
+<p align="center">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=official-jahid&layout=compact&theme=nightowl&hide_border=true&langs_count=8" />
+  <img alt="Profile Stats" src="https://github-readme-stats.vercel.app/api?username=official-jahid&show_icons=true&theme=nightowl&hide_border=true&count_private=true" />
+</p>
+
+---
+
+## ✨ Highlights & links
+- REGIX Studio (streamer-panel) — https://github.com/official-jahid/streamer-panel 🩸
+- Agent Skills (skills) — https://github.com/official-jahid/skills 🧩
+- Memory / Windows research — https://github.com/official-jahid/ff-bios-windows 🔬
+- PowerShell utilities — https://github.com/official-jahid/windows-tweaks & https://github.com/official-jahid/REGIX-Gaming-Optimization-Script ⚙️
+- Injector utilities — https://github.com/official-jahid/injector 🧰
+
+---
+
+## 🚀 Quick start (examples)
+
+REGIX Studio (Python/Flask):
+
+```bash
+git clone https://github.com/official-jahid/streamer-panel.git
+cd streamer-panel
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+```
+
+Skills (browse per-language folders):
+
+```bash
+git clone https://github.com/official-jahid/skills.git
+cd skills
+# read SKILL.md files in each language folder
+```
+
+---
+
+## 🧭 How I work
+- I prioritize reproducible tooling, clear READMEs, and small, focused repositories.
+- Research artifacts include sandbox analysis notes and indicators for safe handling.
+- I welcome responsible collaboration and defensive research conversations.
+
+---
+
+## ⚠️ Responsible use
+These repos include low-level memory tools and binary analysis. They are for research and education. Do not run untrusted binaries or use tools to harm others or violate ToS.
+
+---
+
+## 📫 Contact
+- Email: jahidekbalmallick@gmail.com
+- GitHub: https://github.com/official-jahid
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=official-jahid&theme=nightowl&radius=10" alt="activity graph" />
+</div>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="animated" width="120" />
+</p>
+
+---
+
+_Thanks for visiting — open an issue or reach out if you want to collaborate!_
