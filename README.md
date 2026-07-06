@@ -41,8 +41,8 @@ I'm a software developer and researcher building automation, Windows tooling, an
 </p>
 
 <p align="center">
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=official-jahid&layout=compact&theme=nightowl&hide_border=true&langs_count=8" />
-  <img alt="Profile Stats" src="https://github-readme-stats.vercel.app/api?username=official-jahid&show_icons=true&theme=nightowl&hide_border=true&count_private=true" />
+  [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=official-jahid&layout=compact&theme=nightowl&hide_border=true&langs_count=8)](https://github.com/official-jahid)
+  [![Profile Stats](https://github-readme-stats.vercel.app/api?username=official-jahid&show_icons=true&theme=nightowl&hide_border=true&count_private=true)](https://github.com/official-jahid)
 </p>
 
 ---
@@ -53,29 +53,6 @@ I'm a software developer and researcher building automation, Windows tooling, an
 - Memory / Windows research — https://github.com/official-jahid/ff-bios-windows 🔬
 - PowerShell utilities — https://github.com/official-jahid/windows-tweaks & https://github.com/official-jahid/REGIX-Gaming-Optimization-Script ⚙️
 - Injector utilities — https://github.com/official-jahid/injector 🧰
-
----
-
-## 🚀 Quick start (examples)
-
-REGIX Studio (Python/Flask):
-
-```bash
-git clone https://github.com/official-jahid/streamer-panel.git
-cd streamer-panel
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
-python app.py
-```
-
-Skills (browse per-language folders):
-
-```bash
-git clone https://github.com/official-jahid/skills.git
-cd skills
-# read SKILL.md files in each language folder
-```
 
 ---
 
