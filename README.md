@@ -98,9 +98,6 @@ These repos include low-level memory tools and binary analysis. They are for res
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=official-jahid&theme=nightowl&radius=10" alt="activity graph" />
 </div>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="animated" width="120" />
-</p>
 
 ---
 
