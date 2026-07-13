@@ -1,0 +1,329 @@
+<svg viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="accentGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1">
+        <animate attributeName="offset" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#06B6D4;stop-opacity:1">
+        <animate attributeName="offset" values="50%;150%;50%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1">
+        <animate attributeName="offset" values="100%;200%;100%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="asciiGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#06B6D4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:1"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlowLight1" cx="20%" cy="30%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:0"/>
+    </radialGradient>
+
+    <radialGradient id="bgGlowLight2" cx="80%" cy="70%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#0EA5E9;stop-opacity:0"/>
+    </radialGradient>
+
+    <radialGradient id="bgGlowLight3" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.04"/>
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="glowLight">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="asciiGlowLight">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Masks -->
+    <mask id="panelMaskLight">
+      <rect width="1180" height="610" fill="white"/>
+      <rect x="20" y="20" width="1140" height="570" rx="24" fill="black"/>
+    </mask>
+
+    <!-- Noise Pattern -->
+    <filter id="noiseLight">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" seed="2"/>
+      <feDisplacementMap in="SourceGraphic" scale="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" fill="#FFFFFF"/>
+  
+  <!-- Animated Background Glows -->
+  <circle cx="590" cy="305" r="400" fill="url(#bgGlowLight1)">
+    <animate attributeName="cx" values="200;980;200" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;500;100" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="590" cy="305" r="350" fill="url(#bgGlowLight2)">
+    <animate attributeName="cx" values="900;300;900" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="450;150;450" dur="16s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="590" cy="305" r="300" fill="url(#bgGlowLight3)">
+    <animate attributeName="cy" values="305;405;305" dur="22s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Scanlines (very subtle for light mode) -->
+  <defs>
+    <pattern id="scanlinesLight" patternUnits="userSpaceOnUse" width="1180" height="2">
+      <line x1="0" y1="0" x2="1180" y2="0" stroke="rgba(15,23,42,0.01)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1180" height="610" fill="url(#scanlinesLight)">
+    <animate attributeName="y" values="0;610" dur="20s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main Panel -->
+  <rect x="20" y="20" width="1140" height="570" rx="24" fill="#F8FAFC" opacity="0.9" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+
+  <!-- Left Section: ASCII Art -->
+  <g clip-path="url(#leftClipLight)">
+    <defs>
+      <clipPath id="leftClipLight">
+        <rect x="30" y="30" width="420" height="550" rx="20"/>
+      </clipPath>
+    </defs>
+
+    <!-- ASCII Portrait Container -->
+    <g transform="translate(50, 80)">
+      <!-- Floating Animation -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 0,-5; 0,0" dur="4s" repeatCount="indefinite"/>
+        
+        <!-- ASCII Art (Line-by-line reveal) -->
+        <text x="0" y="0" font-family="'Courier New', monospace" font-size="10" fill="url(#asciiGradLight)" filter="url(#asciiGlowLight)" opacity="0.95">
+          <tspan x="0" dy="0" font-weight="bold">    ___    _____   </tspan>
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0s" fill="freeze"/>
+        </text>
+        
+        <text x="0" y="12" font-family="'Courier New', monospace" font-size="10" fill="url(#asciiGradLight)" filter="url(#asciiGlowLight)" opacity="0.95">
+          <tspan x="0" dy="0" font-weight="bold">   / _ \ / _ \\   </tspan>
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.3s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="24" font-family="'Courier New', monospace" font-size="10" fill="url(#asciiGradLight)" filter="url(#asciiGlowLight)" opacity="0.95">
+          <tspan x="0" dy="0" font-weight="bold">  / (_) | (_) |  </tspan>
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="36" font-family="'Courier New', monospace" font-size="10" fill="url(#asciiGradLight)" filter="url(#asciiGlowLight)" opacity="0.95">
+          <tspan x="0" dy="0" font-weight="bold">  \__, / \___/   </tspan>
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.9s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="48" font-family="'Courier New', monospace" font-size="10" fill="url(#asciiGradLight)" filter="url(#asciiGlowLight)" opacity="0.95">
+          <tspan x="0" dy="0" font-weight="bold">    |___/       </tspan>
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="66" font-family="'Courier New', monospace" font-size="9" fill="#475569" opacity="0.6">
+          <tspan x="0" dy="0">&gt; Developer</tspan>
+          <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="1.8s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="80" font-family="'Courier New', monospace" font-size="9" fill="#475569" opacity="0.6">
+          <tspan x="0" dy="0">&gt; Creator</tspan>
+          <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="2.1s" fill="freeze"/>
+        </text>
+
+        <text x="0" y="94" font-family="'Courier New', monospace" font-size="9" fill="#475569" opacity="0.6">
+          <tspan x="0" dy="0">&gt; Builder</tspan>
+          <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="2.4s" fill="freeze"/>
+        </text>
+
+        <!-- Blinking Cursor -->
+        <line x1="55" y1="94" x2="55" y2="104" stroke="#06B6D4" stroke-width="1.5" filter="url(#glowLight)">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="2.7s"/>
+        </line>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Section: Terminal Content -->
+  <g clip-path="url(#rightClipLight)">
+    <defs>
+      <clipPath id="rightClipLight">
+        <rect x="460" y="30" width="700" height="550" rx="20"/>
+      </clipPath>
+    </defs>
+
+    <!-- Terminal Panel -->
+    <rect x="470" y="40" width="680" height="530" fill="rgba(248,250,252,0.7)" stroke="rgba(15,23,42,0.06)" stroke-width="1" rx="16"/>
+
+    <!-- Greeting Section -->
+    <text x="500" y="90" font-family="'Segoe UI', system-ui" font-size="18" fill="#0F172A" font-weight="500">
+      <tspan>Hi 👋</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.2s" fill="freeze"/>
+    </text>
+
+    <text x="500" y="125" font-family="'Segoe UI', system-ui" font-size="32" fill="url(#accentGradLight)" font-weight="700">
+      <tspan>I'm Jahid</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.6s" fill="freeze"/>
+    </text>
+
+    <!-- Typing Animation Text -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4s" fill="freeze"/>
+      
+      <text x="500" y="165" font-family="'Segoe UI', system-ui" font-size="18" fill="#475569">
+        <tspan>
+          <tspan fill="#10B981">Frontend Engineer</tspan>
+          <tspan fill="#06B6D4">_</tspan>
+        </tspan>
+      </text>
+
+      <animate attributeName="opacity" values="1;0" dur="0.2s" begin="6s" fill="freeze"/>
+    </g>
+
+    <!-- Alt text 1 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.3s" fill="freeze"/>
+      
+      <text x="500" y="165" font-family="'Segoe UI', system-ui" font-size="18" fill="#475569">
+        <tspan>
+          <tspan fill="#10B981">Full Stack Developer</tspan>
+          <tspan fill="#06B6D4">_</tspan>
+        </tspan>
+      </text>
+
+      <animate attributeName="opacity" values="1;0" dur="0.2s" begin="8.3s" fill="freeze"/>
+    </g>
+
+    <!-- Alt text 2 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="8.6s" fill="freeze"/>
+      
+      <text x="500" y="165" font-family="'Segoe UI', system-ui" font-size="18" fill="#475569">
+        <tspan>
+          <tspan fill="#10B981">Open Source Contributor</tspan>
+          <tspan fill="#06B6D4">_</tspan>
+        </tspan>
+      </text>
+
+      <animate attributeName="opacity" values="1;0" dur="0.2s" begin="10.6s" fill="freeze"/>
+    </g>
+
+    <!-- Final state -->
+    <text x="500" y="165" font-family="'Segoe UI', system-ui" font-size="18" fill="#475569" opacity="0">
+      <tspan>
+        <tspan fill="#10B981">Open Source Contributor</tspan>
+      </tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="10.9s" fill="freeze"/>
+    </text>
+
+    <!-- Info Section -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="11.5s" fill="freeze"/>
+      
+      <text x="500" y="220" font-family="'Segoe UI', system-ui" font-size="13" fill="#475569">📍 Bangladesh</text>
+      <text x="500" y="245" font-family="'Segoe UI', system-ui" font-size="13" fill="#475569">🎓 Self-Taught Developer</text>
+      <text x="500" y="270" font-family="'Segoe UI', system-ui" font-size="13" fill="#475569">💼 Building amazing experiences</text>
+      <text x="500" y="295" font-family="'Segoe UI', system-ui" font-size="13" fill="#475569">🔗 <tspan fill="#06B6D4">jahid.dev</tspan></text>
+    </g>
+
+    <!-- Skills Section -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="12.3s" fill="freeze"/>
+
+      <text x="500" y="340" font-family="'Segoe UI', system-ui" font-size="14" fill="#0F172A" font-weight="600">Skills & Tech Stack</text>
+
+      <!-- Skill Pills -->
+      <g id="skillsLight">
+        <!-- Row 1 -->
+        <rect x="500" y="360" width="70" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1">
+          <animate attributeName="r" values="14;16;14" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="535" y="380" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">React</text>
+
+        <rect x="580" y="360" width="75" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="617" y="380" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">Next.js</text>
+
+        <rect x="665" y="360" width="75" height="28" rx="14" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.25)" stroke-width="1"/>
+        <text x="702" y="380" font-family="'Segoe UI', system-ui" font-size="12" fill="#0E7490" text-anchor="middle" font-weight="500">TypeScript</text>
+
+        <rect x="750" y="360" width="65" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="782" y="380" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">Node.js</text>
+
+        <!-- Row 2 -->
+        <rect x="500" y="400" width="85" height="28" rx="14" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+        <text x="542" y="420" font-family="'Segoe UI', system-ui" font-size="12" fill="#065F46" text-anchor="middle" font-weight="500">Tailwind</text>
+
+        <rect x="595" y="400" width="75" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="632" y="420" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">Express</text>
+
+        <rect x="680" y="400" width="65" height="28" rx="14" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.25)" stroke-width="1"/>
+        <text x="712" y="420" font-family="'Segoe UI', system-ui" font-size="12" fill="#0E7490" text-anchor="middle" font-weight="500">Docker</text>
+
+        <rect x="755" y="400" width="60" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="785" y="420" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">AWS</text>
+
+        <!-- Row 3 -->
+        <rect x="500" y="440" width="60" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="530" y="460" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">Git</text>
+
+        <rect x="570" y="440" width="75" height="28" rx="14" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.25)" stroke-width="1"/>
+        <text x="607" y="460" font-family="'Segoe UI', system-ui" font-size="12" fill="#0E7490" text-anchor="middle" font-weight="500">Postgres</text>
+
+        <rect x="655" y="440" width="75" height="28" rx="14" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1"/>
+        <text x="692" y="460" font-family="'Segoe UI', system-ui" font-size="12" fill="#1E40AF" text-anchor="middle" font-weight="500">Figma</text>
+
+        <rect x="740" y="440" width="75" height="28" rx="14" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+        <text x="777" y="460" font-family="'Segoe UI', system-ui" font-size="12" fill="#065F46" text-anchor="middle" font-weight="500">Python</text>
+      </g>
+    </g>
+
+    <!-- Social Icons -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="13.2s" fill="freeze"/>
+
+      <!-- GitHub -->
+      <circle cx="520" cy="530" r="18" fill="rgba(15,23,42,0.08)" stroke="rgba(15,23,42,0.15)" stroke-width="1" filter="url(#glowLight)"/>
+      <text x="520" y="536" font-family="'Segoe UI', system-ui" font-size="20" fill="#0F172A" text-anchor="middle">🐙</text>
+
+      <!-- LinkedIn -->
+      <circle cx="570" cy="530" r="18" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1" filter="url(#glowLight)"/>
+      <text x="570" y="536" font-family="'Segoe UI', system-ui" font-size="20" fill="#1E40AF" text-anchor="middle">💼</text>
+
+      <!-- Twitter -->
+      <circle cx="620" cy="530" r="18" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.25)" stroke-width="1" filter="url(#glowLight)"/>
+      <text x="620" y="536" font-family="'Segoe UI', system-ui" font-size="20" fill="#0E7490" text-anchor="middle">𝕏</text>
+
+      <!-- Portfolio -->
+      <circle cx="670" cy="530" r="18" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.25)" stroke-width="1" filter="url(#glowLight)"/>
+      <text x="670" y="536" font-family="'Segoe UI', system-ui" font-size="20" fill="#1E40AF" text-anchor="middle">🔗</text>
+    </g>
+  </g>
+
+  <!-- Top Border Shimmer -->
+  <defs>
+    <linearGradient id="shimmerLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(37,99,235,0);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgba(37,99,235,0.15);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgba(37,99,235,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="20" y="20" width="1140" height="2" fill="url(#shimmerLight)" rx="24">
+    <animate attributeName="x" values="-1140;1140" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
